@@ -1,5 +1,5 @@
 build:
-  - scalac Clock.scala
+- pip install -r requirements.txt
 env:
-  APP_COMMAND: scala Clock
+  APP_COMMAND: python index.py
 test: mocha
